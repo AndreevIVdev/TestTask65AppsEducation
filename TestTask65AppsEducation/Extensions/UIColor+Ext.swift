@@ -8,31 +8,28 @@
 import UIKit
 
 extension UIColor {
-    
-    convenience init(red: Int, green: Int, blue: Int, a: CGFloat = 1.0) {
+
+    convenience init(red: Int, green: Int, blue: Int, alpa: CGFloat = 1.0) {
         self.init(
             red: CGFloat(red) / 255.0,
             green: CGFloat(green) / 255.0,
             blue: CGFloat(blue) / 255.0,
-            alpha: a
+            alpha: alpa
         )
     }
 
-    convenience init(rgb: Int, a: CGFloat = 1.0) {
+    convenience init(rgb: Int, alpa: CGFloat = 1.0) {
         self.init(
             red: (rgb >> 16) & 0xFF,
             green: (rgb >> 8) & 0xFF,
             blue: rgb & 0xFF,
-            a: a
+            alpa: alpa
         )
     }
-    
-    static func aeBlack() -> UIColor {
-        UIColor(rgb: 0x121212)
-    }
-    
-    static func aeCyan() -> UIColor {
-        UIColor(rgb: 0x50E3C2)
-    }
-}
 
+    static let ttBlack: UIColor = .init(rgb: 0x121212)
+
+    static let ttCyan: UIColor = .init(rgb: 0x50E3C2)
+
+    static let inactive: UIColor = .gray
+}

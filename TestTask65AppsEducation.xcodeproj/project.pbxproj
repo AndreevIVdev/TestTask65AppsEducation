@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1D6A8F272DD0D300DD1D0C /* WhatIsYourEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D6A8E272DD0D300DD1D0C /* WhatIsYourEmailViewController.swift */; };
+		8B1D6A95272DD38500DD1D0C /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D6A94272DD38500DD1D0C /* UILabel+Ext.swift */; };
+		8B1D6A97272DF3EA00DD1D0C /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D6A96272DF3EA00DD1D0C /* CreatePasswordViewController.swift */; };
 		8B2BB1B92729D78200FC7A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BB1B82729D78200FC7A17 /* AppDelegate.swift */; };
 		8B2BB1C22729D78200FC7A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BB1C12729D78200FC7A17 /* Assets.xcassets */; };
 		8B2BB1C52729D78200FC7A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BB1C32729D78200FC7A17 /* LaunchScreen.storyboard */; };
@@ -14,9 +17,18 @@
 		8B2BB1D22729D9C500FC7A17 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BB1D12729D9C500FC7A17 /* UIView+Ext.swift */; };
 		8B2BB1D52729DB1100FC7A17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BB1D42729DB1100FC7A17 /* Constants.swift */; };
 		8B2BB1D72729DC9800FC7A17 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BB1D62729DC9800FC7A17 /* UIColor+Ext.swift */; };
+		8B767DCA272AC96F00A9CB24 /* WhatIsYourNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B767DC9272AC96F00A9CB24 /* WhatIsYourNameViewController.swift */; };
+		8B767DCC272ACB6C00A9CB24 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B767DCB272ACB6C00A9CB24 /* UIViewController+Ext.swift */; };
+		8B767DCF272AD8D800A9CB24 /* TTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B767DCE272AD8D800A9CB24 /* TTTextField.swift */; };
+		8B9CE7ED272B4069006FAF1F /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9CE7EC272B4069006FAF1F /* UITextField+Ext.swift */; };
+		8BA1D83F2729F5E100609FEE /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA1D83E2729F5E100609FEE /* SF-Pro-Display-Regular.otf */; };
+		8BA1D8412729F63100609FEE /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA1D8402729F63100609FEE /* SF-Pro-Display-Light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1D6A8E272DD0D300DD1D0C /* WhatIsYourEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourEmailViewController.swift; sourceTree = "<group>"; };
+		8B1D6A94272DD38500DD1D0C /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		8B1D6A96272DF3EA00DD1D0C /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
 		8B2BB1B52729D78200FC7A17 /* TestTask65AppsEducation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask65AppsEducation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2BB1B82729D78200FC7A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B2BB1C12729D78200FC7A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,6 +38,12 @@
 		8B2BB1D12729D9C500FC7A17 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		8B2BB1D42729DB1100FC7A17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B2BB1D62729DC9800FC7A17 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		8B767DC9272AC96F00A9CB24 /* WhatIsYourNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourNameViewController.swift; sourceTree = "<group>"; };
+		8B767DCB272ACB6C00A9CB24 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		8B767DCE272AD8D800A9CB24 /* TTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTextField.swift; sourceTree = "<group>"; };
+		8B9CE7EC272B4069006FAF1F /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		8BA1D83E2729F5E100609FEE /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		8BA1D8402729F63100609FEE /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B1D6A90272DD16800DD1D0C /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				8B767DCE272AD8D800A9CB24 /* TTTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		8B1D6A91272DD19B00DD1D0C /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		8B2BB1AC2729D78100FC7A17 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +91,7 @@
 		8B2BB1B72729D78200FC7A17 /* TestTask65AppsEducation */ = {
 			isa = PBXGroup;
 			children = (
+				8B767DCD272AD8AA00A9CB24 /* Custom Views */,
 				8B2BB1D32729DB0000FC7A17 /* Utilities */,
 				8B2BB1D02729D97F00FC7A17 /* Extensions */,
 				8B2BB1CF2729D8DD00FC7A17 /* Screens */,
@@ -69,6 +103,7 @@
 		8B2BB1CE2729D86500FC7A17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BA1D83D2729F5B600609FEE /* Fonts */,
 				8B2BB1C12729D78200FC7A17 /* Assets.xcassets */,
 				8B2BB1B82729D78200FC7A17 /* AppDelegate.swift */,
 				8B2BB1C62729D78200FC7A17 /* Info.plist */,
@@ -81,6 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				8B2BB1CC2729D83C00FC7A17 /* WelcomeViewController.swift */,
+				8B767DC9272AC96F00A9CB24 /* WhatIsYourNameViewController.swift */,
+				8B1D6A8E272DD0D300DD1D0C /* WhatIsYourEmailViewController.swift */,
+				8B1D6A96272DF3EA00DD1D0C /* CreatePasswordViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -90,6 +128,9 @@
 			children = (
 				8B2BB1D62729DC9800FC7A17 /* UIColor+Ext.swift */,
 				8B2BB1D12729D9C500FC7A17 /* UIView+Ext.swift */,
+				8B767DCB272ACB6C00A9CB24 /* UIViewController+Ext.swift */,
+				8B9CE7EC272B4069006FAF1F /* UITextField+Ext.swift */,
+				8B1D6A94272DD38500DD1D0C /* UILabel+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -102,6 +143,24 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		8B767DCD272AD8AA00A9CB24 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D6A91272DD19B00DD1D0C /* Labels */,
+				8B1D6A90272DD16800DD1D0C /* TextFields */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8BA1D83D2729F5B600609FEE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8BA1D83E2729F5E100609FEE /* SF-Pro-Display-Regular.otf */,
+				8BA1D8402729F63100609FEE /* SF-Pro-Display-Light.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +171,7 @@
 				8B2BB1B12729D78200FC7A17 /* Sources */,
 				8B2BB1B22729D78200FC7A17 /* Frameworks */,
 				8B2BB1B32729D78200FC7A17 /* Resources */,
+				8B3AE062272AC32100F9AF5D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -161,11 +221,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B2BB1C52729D78200FC7A17 /* LaunchScreen.storyboard in Resources */,
+				8BA1D83F2729F5E100609FEE /* SF-Pro-Display-Regular.otf in Resources */,
+				8BA1D8412729F63100609FEE /* SF-Pro-Display-Light.otf in Resources */,
 				8B2BB1C22729D78200FC7A17 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B3AE062272AC32100F9AF5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint --fix\nelse\n  echo \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B2BB1B12729D78200FC7A17 /* Sources */ = {
@@ -173,9 +255,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B2BB1B92729D78200FC7A17 /* AppDelegate.swift in Sources */,
+				8B1D6A95272DD38500DD1D0C /* UILabel+Ext.swift in Sources */,
+				8B9CE7ED272B4069006FAF1F /* UITextField+Ext.swift in Sources */,
 				8B2BB1CD2729D83C00FC7A17 /* WelcomeViewController.swift in Sources */,
+				8B767DCC272ACB6C00A9CB24 /* UIViewController+Ext.swift in Sources */,
 				8B2BB1D72729DC9800FC7A17 /* UIColor+Ext.swift in Sources */,
 				8B2BB1D22729D9C500FC7A17 /* UIView+Ext.swift in Sources */,
+				8B1D6A97272DF3EA00DD1D0C /* CreatePasswordViewController.swift in Sources */,
+				8B767DCF272AD8D800A9CB24 /* TTTextField.swift in Sources */,
+				8B767DCA272AC96F00A9CB24 /* WhatIsYourNameViewController.swift in Sources */,
+				8B1D6A8F272DD0D300DD1D0C /* WhatIsYourEmailViewController.swift in Sources */,
 				8B2BB1D52729DB1100FC7A17 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
